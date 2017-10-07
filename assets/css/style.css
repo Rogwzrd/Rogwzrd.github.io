@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	background-color: #f4f4f4;
-	background-image: url('../images/background-image-stone.jpg');
 }
 
 header {
@@ -88,7 +87,7 @@ a:hover {
 	padding: 0px 2.5px 0px 2.5px;
 }
 
-.about-me {
+/*.about-me {
 	background-color: #fff;
 	width: 650px;
 	margin: 5%;
@@ -112,9 +111,9 @@ a:hover {
 	float: left;
 	padding: 0px 5px 5px;
 	margin: 10px;
-}
+}*/
 
-.about-me--section {
+/*.about-me--section {
 	border-top: thick solid #dddddd;
 }
 
@@ -146,15 +145,15 @@ a:hover {
 	font-size: 24px;
 	font-family: 'Georgia', Times, Times New Roman, serif
 	margin:0;
-}
-.contact {
+}*/
+/*.contact {
 	padding: 15px 0;
 	font-size: 24px;
 	border-top: thick solid #dddddd;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
+}*/
 
-input[type="text"] {
+/*input[type="text"] {
 	border: solid #ddd ;
 	color: #bbb;
 	font-size: 16px;
@@ -188,7 +187,7 @@ input[type="submit"].contact--submit {
 	cursor: pointer;
 	padding: 10px 20px 10px 20px;
 	font-size: 24px;
-}
+}*/
 
 footer {
 	background-color: #666666;
