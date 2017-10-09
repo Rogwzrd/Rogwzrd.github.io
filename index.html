@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html class="mdc-typography">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     <title>Michael Daye | Developer</title>
     <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" text="text/css" href="assets/css/materialize.css">
     <link rel="stylesheet" text="text/css" href="assets/css/style.css">
 </head>
@@ -15,7 +19,7 @@
 <body>
     <header class="page-header">
         <div class="container">
-            <h1>Michael Daye | Developer</h1>
+            <h1 class="mdc-typography--display2">Michael Daye | Developer</h1>
             <ul>
                 <li>
                     <a href="github.com/Rogwzrd">github</a>
@@ -48,90 +52,16 @@
                     </p>
                 </div>
             </div>
-        <div class="portfolio-container">
-            <h2>Portfolio</h2>
-            <div class="row">
-                <div class="col s12 m6 l4">
-                    <div class="card medium">
-                        <div class="card-image">
-                            <img src="images/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4">
-                    <div class="card medium">
-                        <div class="card-image">
-                            <img src="images/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4">
-                    <div class="card medium">
-                        <div class="card-image">
-                            <img src="images/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4">
-                    <div class="card medium ">
-                        <div class="card-image">
-                            <img src="images/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l4">
-                    <div class="card medium">
-                        <div class="card-image">
-                            <img src="images/sample-1.jpg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="portfolio">
         <div>
             <h2>Contact Me</h2>
             <form class="contact">
                 <label>Name</label>
                 <br>
-                <input type="text" name="fname" value="John Smith" class="contact--name">
+                <input type="text" name="fname" value="John Smith" class="mdc-textfield__input">
                 <label>Email</label>
                 <br>
-                <input type="text" name="email" value="john.smith@example.com" class="contact--email">
+                <input type="text" name="email" value="john.smith@example.com" class="mdc-textfield__input">
                 <label>Message</label>
                 <br>
                 <textarea value="Message"></textarea>
@@ -139,44 +69,12 @@
                 <input type="submit" value="Submit" class="contact--submit">
             </form>
         </div>
-        <div class="connect-with-me">
-            <h2>Connect With Me</h2>
-            <div class="image_links">
-                <a href="https://github.com/Rogwzrd" target="_blank"><img width=80px height=80px src="assets/images/GitHub-logo.png"></a>
-                <a href="https://www.linkedin.com/in/michael-daye-026993141/" target="_blank"><img width=80px height=80px src="assets/images/LinkedIn_logo_initials.png"></a>
-                <a href="https://stackoverflow.com/users/8234040/m-daye" target="_blank"><img width=80px height=80px src="assets/images/stackoverflow-icon.png"></a>
-            </div>
-        </div>
-    </div>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Contact Me</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2017 Michael Daye
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
-    </footer>
-<!--     <footer>
+    <footer>
         &copy; Copyright 2017 Michael Daye
-    </footer> -->
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!--     <script src="node_modules/material-components-web/dist/material-components-web.js"></script> -->
+    <script>mdc.autoInit()</script>
 </body>
 
 </html>
