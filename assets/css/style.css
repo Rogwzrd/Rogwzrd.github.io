@@ -1,4 +1,4 @@
-body {
+/*body {
 	margin: 0;
 	background-color: #f4f4f4;
 }
@@ -85,7 +85,7 @@ a:hover {
 
 .image_links img {
 	padding: 0px 2.5px 0px 2.5px;
-}
+}*/
 
 /*.about-me {
 	background-color: #fff;
@@ -188,7 +188,7 @@ input[type="submit"].contact--submit {
 	padding: 10px 20px 10px 20px;
 	font-size: 24px;
 }*/
-
+/*
 footer {
 	background-color: #666666;
 	text-align: center;
@@ -201,4 +201,14 @@ footer {
 	color: #fff;
 	line-height: 30px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
+}*/
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
