@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Bio from './components/Bio'
 import Header from './components/Header.js'
-import './App.css';
 import Portfolio from "./components/Portfolio";
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
