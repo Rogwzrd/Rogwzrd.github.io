@@ -24,7 +24,7 @@ class App extends Component {
                         "                to save for to view later and also add notes. The users can also update and/or delete these notes.\n"}
                     />
                     <Portfolio
-                        url={"tcg-app.herokuapp.com/"}
+                        url={"http://tcg-app.herokuapp.com/"}
                         title={"TCG Organizer"}
                         subtitle={"Node.js, Bootstrap, Handlebars.js, Express.js, MySql, Sequelize"}
                         imgSrc={"tcg.png"}
