@@ -4,14 +4,17 @@ import Col from './Col'
 const inlineStyle={display: "inline", textdecoration: "none"};
 const Header = props =>(
 
-    <div className={'row sticky-top bg-light '} style={{height: "50px", boxShadow: "5px 5px 5px grey"}}>
-        <Col columnSize={'col-12'} style={inlineStyle}>
-            <div className={"d-flex justify-content-around"}>
-                <a href={"https://github.com/Rogwzrd"} target={"_blank"}>Github</a>
-                <a href={'https://www.linkedin.com/in/michael-daye/'} target={"_blank"}>linkedin</a>
-                <a href={'twitter.com/mikeD_Developer'} target={"_blank"}>twitter</a>
+    <div className={"container-fluid sticky-top"}>
+        <div className={'row d-flex justify-content-between px-3'} style={{color: "#595959", backgroundColor: "#adccff", height: "auto", boxShadow: "5px 5px 5px grey"}}>
+            <div>
+                <h1>Mike Daye | Developer</h1>
             </div>
-        </Col>
+            <div className={"align-self-center"}>
+                <a className={"mx-1"} href={"https://github.com/Rogwzrd"} target={"_blank"}>Github</a>
+                <a className={"mx-1"} href={'https://www.linkedin.com/in/michael-daye/'} target={"_blank"}>linkedin</a>
+                <a className={"mx-1"} href={'twitter.com/mikeD_Developer'} target={"_blank"}>twitter</a>
+            </div>
+        </div>
     </div>
 );
 

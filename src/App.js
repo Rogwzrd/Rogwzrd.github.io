@@ -55,7 +55,7 @@ class App extends Component {
                 <Header />
                 <Bio/>
                 <div className={"container-fluid"}>
-                    <div className={"row"}>
+                    <div className={"row my-3"}>
                 {skillsAray.map(skill => <Skills image={skill.image}/>)}
                 </div>
                 </div>

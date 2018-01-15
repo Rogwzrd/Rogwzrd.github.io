@@ -1,7 +1,7 @@
 import React from 'react';
 import Col from'./Col'
 const Bio = props =>(
-    <div className={"d-flex"} style={{minHeight: "720px", backgroundColor: "#b1b9c6"}}>
+    <div className={"d-flex bg-light"} style={{minHeight: "720px", color: "#595959"}}>
         <div className={"container justify-space-around align-self-center"}>
             <div className={"row"}>
                 <Col columnSize={"col-12 text-center"}>
