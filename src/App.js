@@ -15,7 +15,10 @@ class App extends Component {
                 <Bio/>
                 <div className={"container-fluid"}>
                     <div className={"row my-3"}>
-                {skillsArray.map((skill, index) => <Skills key={index} image={skill.image}/>)}
+                {skillsArray.map((skill, index) => <Skills
+                    key={index}
+                    image={skill.image}
+                />)}
                 </div>
                 </div>
                 <div className={"container-fluid bg-light"}>

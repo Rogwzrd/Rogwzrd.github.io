@@ -1,7 +1,7 @@
 import React from 'react';
 import Col from'./Col'
 const Bio = props =>(
-    <div className={"d-flex bg-light"} style={{minHeight: "720px", color: "#595959"}}>
+    <div className={"d-flex bg-light"} style={{minHeight: "660px", color: "#595959"}}>
         <div className={"container justify-space-around align-self-center"}>
             <div className={"row"}>
                 <Col columnSize={"col-12 text-center"}>
@@ -16,7 +16,7 @@ const Bio = props =>(
                             <a href={"http://github.com/rogwzrd"} target={"_blank"}>View my code here</a>
                         </div>
                         <div className={"align-self-center"}>
-                            <img className={"mx-auto img-responsive"} style={{display: "flex", width: "auto", maxHeight: "400px", borderRadius: "100%"}} src={require('./img/headshot.jpg')} alt={"workspace"}/>
+                            <img className={"mx-auto img-responsive"} style={{display: "flex", width: "auto", maxHeight: "350px", borderRadius: "100%"}} src={require('./img/headshot.jpg')} alt={"workspace"}/>
                         </div>
                     </div>
                 </Col>
