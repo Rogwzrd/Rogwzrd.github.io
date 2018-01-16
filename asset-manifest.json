@@ -1,11 +1,14 @@
 {
   "main.css": "static/css/main.65027555.css",
   "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.9a81bae2.js",
-  "main.js.map": "static/js/main.9a81bae2.js.map",
+  "main.js": "static/js/main.a9cc6866.js",
+  "main.js.map": "static/js/main.a9cc6866.js.map",
   "static\\media\\capcom.png": "static/media/capcom.11da35b2.png",
+  "static\\media\\clickfighter.png": "static/media/clickfighter.d8de0eba.png",
   "static\\media\\desk.jpg": "static/media/desk.12f7d3ad.jpg",
+  "static\\media\\friendfinder.png": "static/media/friendfinder.679a62bb.png",
   "static\\media\\headshot.jpg": "static/media/headshot.1d0728d5.jpg",
+  "static\\media\\liri.png": "static/media/liri.5b626226.png",
   "static\\media\\node.png": "static/media/node.52babf49.png",
   "static\\media\\scraper.png": "static/media/scraper.9c45e3e6.png",
   "static\\media\\tcg.png": "static/media/tcg.7e7aee5d.png"
