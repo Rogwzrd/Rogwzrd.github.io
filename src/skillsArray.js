@@ -1,44 +1,52 @@
 const skillsArray= [
 
     {
-        name: "react",
+        name: "React",
         image: "react.png"
     },
     {
-        name: "express",
+        name: "Express",
         image: "expressjs.png"
     },
     {
-        name: "node",
+        name: "Node",
         image: "node.png"
     },
     {
-        name: "html",
+        name: "HTML",
         image: "html.png"
     },
     {
-        name: "css",
+        name: "Css",
         image: "css.png"
     },
     {
-        name: "bootrap",
+        name: "Bootsrap",
         image: "bootstrap.png"
     },
     {
-        name: "js",
+        name: "Javascript",
         image: "js.png"
     },
     {
-        name: "jquery",
+        name: "Jquery",
         image: "jquery.png"
     },
     {
-        name: "git",
+        name: "Git",
         image: "git.png"
     },
     {
-        name: "responsive design",
+        name: "Responsive Design",
         image: "responsive.png"
+    },
+    {
+        name: "MongoDB",
+        image: "mongodb.png"
+    },
+    {
+        name: "MySql",
+        image: "mysql.png"
     }
 ];
 
