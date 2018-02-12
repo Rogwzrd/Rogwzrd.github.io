@@ -1,21 +1,20 @@
 import React from 'react';
-import Col from './Col'
+import FlatButton from 'material-ui/FlatButton'
+import {Toolbar, ToolbarGroup, ToolbarTitle} from 'material-ui/Toolbar';
 
-const inlineStyle={display: "inline", textdecoration: "none"};
 const Header = props =>(
-
-    <div className={"container-fluid sticky-top"}>
-        <div className={'row d-flex justify-content-between px-3'} style={{color: "#595959", backgroundColor: "#adccff", height: "auto", boxShadow: "5px 5px 5px grey"}}>
+    <Toolbar style={{backgroundColor: "#28a745"}}>
+        <ToolbarGroup>
+                <ToolbarTitle style={{color: "#fff"}} text={"Mike Daye | Developer"}/>
+        </ToolbarGroup>
+        <ToolbarGroup>
             <div>
-                <h2 className={"align-self-center"}>Mike Daye | Developer</h2>
+                <FlatButton href={"https://github.com/Rogwzrd"} target={"_blank"} hoverColor={"#fff"}>Github</FlatButton>
+                <FlatButton href={'https://www.linkedin.com/in/michael-daye/'} target={"_blank"} hoverColor={"#fff"}>linkedin</FlatButton>
+                <FlatButton href={'http://www.twitter.com/mikeD_Developer'} target={"_blank"} hoverColor={"#fff"}>twitter</FlatButton>
             </div>
-            <div className={"align-self-center"}>
-                <a className={"mx-1"} href={"https://github.com/Rogwzrd"} target={"_blank"}>Github</a>
-                <a className={"mx-1"} href={'https://www.linkedin.com/in/michael-daye/'} target={"_blank"}>linkedin</a>
-                <a className={"mx-1"} href={'twitter.com/mikeD_Developer'} target={"_blank"}>twitter</a>
-            </div>
-        </div>
-    </div>
+        </ToolbarGroup>
+    </Toolbar>
 );
 
 export default Header;
