@@ -16,6 +16,7 @@ const sectionStyle = {
     display: "flex",
     flexDirection: "row",
     margin: "0 5px",
+    color: "white"
 };
 const copyrightText = {
     margin: "20px 0",
@@ -27,33 +28,36 @@ const Footer = () => (
             Thanks for visiting my portfolio!
         </p>
         <p>
-            Please reach out if you are interested in working with me
+            Reach out through one of the links below if you are interested in working with me.
         </p>
         <section style={sectionStyle}>
             <FlatButton
-                label="Github"
                 href={"https://github.com/Rogwzrd"}
-                target={"_blank"}/>
+                target={"_blank"}>
+                Github
+            </FlatButton>
             <br/>
             <FlatButton
-                label="linkedIn"
                 href={'https://www.linkedin.com/in/michael-daye/'}
-                target={"_blank"}/>
+                target={"_blank"}>
+                LinkedIn
+            </FlatButton>
             <br/>
             <FlatButton
-                label="twitter"
                 href={'http://www.twitter.com/mikeD_Developer'}
-                target={"_blank"}/>
+                target={"_blank"}>
+                Twitter
+            </FlatButton>
             <br/>
             <form method="post" action="mailto:mgdaye@gmail.com" >
                 <FlatButton
-                    label="Email Me"
-                    type={"submit"}
-                />
+                    type={"submit"}>
+                    Email Me
+                </FlatButton>
             </form>
         </section>
         <p style={copyrightText}>
-            Mike Daye &copy; 2018
+            Copyright &copy; 2018 Mike Daye
         </p>
     </div>
 );

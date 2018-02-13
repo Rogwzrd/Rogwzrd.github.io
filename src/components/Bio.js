@@ -7,9 +7,8 @@ const Bio = props =>(
         <div style={
             {
                 position: "absolute",
-                // top: "56px",
                 zIndex: "-1",
-                height: "600px",
+                height: "750px",
                 width: "100%",
                 background: `#333 url(${bgImage})`,
                 backgroundPosition: "center",
@@ -24,9 +23,9 @@ const Bio = props =>(
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                backgroundColor: "rgba(70, 70, 70, .7)",
+                backgroundColor: "rgba(10, 10, 10, .70)",
                 color: "#fff",
-                height: "600px",
+                height: "750px",
                 padding: "10%"
 
             }

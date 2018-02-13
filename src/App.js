@@ -10,6 +10,9 @@ import Wrapper from './components/Wrapper'
 import skillsArray from "./skillsArray.js"
 import porfolioArray from './porfolioArray'
 
+import ScrollAnimation from "react-animate-on-scroll";
+
+
 class App extends Component {
     render() {
         return (
@@ -20,19 +23,22 @@ class App extends Component {
                         title={"Skills"}
                         bgColor={"#aaa"}
                         containerClass={"container"}
-                        rowClass={"row py-5"}
-                        children={skillsArray.map((skill, index) => <Skills
+                        rowClass={"row pt-2 pb-5"}
+                        children={
+                            skillsArray.map((skill, index) => <Skills
                             key={index}
                             image={skill.image}
                             name={skill.name}
-                        />)}/>
-
+                            proficiency={skill.proficiency}
+                        />)}
+                    />
                     <Wrapper
                         title={"Projects"}
                         bgColor={"#28a745"}
                         containerClass={"container-fluid"}
-                        rowClass={"row py-5"}
-                        children={porfolioArray.map((project, index)=><Portfolio
+                        rowClass={"row pt-2 pb-5"}
+                        children={
+                            porfolioArray.map((project, index)=><Portfolio
                             key={index}
                             url={project.url}
                             title={project.title}
