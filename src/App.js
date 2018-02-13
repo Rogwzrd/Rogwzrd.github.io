@@ -10,9 +10,6 @@ import Wrapper from './components/Wrapper'
 import skillsArray from "./skillsArray.js"
 import porfolioArray from './porfolioArray'
 
-import ScrollAnimation from "react-animate-on-scroll";
-
-
 class App extends Component {
     render() {
         return (
