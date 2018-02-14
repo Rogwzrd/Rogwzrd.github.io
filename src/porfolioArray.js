@@ -36,7 +36,7 @@ const porfolioArray =[
         to handle the responsiveness of the page and utilized handlebars to render server-side requests.`,
     },
     {
-        url: "https://rogwzrd.github.io/trivia-game/",
+        url: "https://capcom-trivia-game.herokuapp.com/home.html",
         title: "Capcom Trivia",
         subtitle: "JavaScript, jQuery",
         imgSrc: "capcom.png",
