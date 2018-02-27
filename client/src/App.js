@@ -3,12 +3,13 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Bio from './components/Bio'
 import Portfolio from "./components/Portfolio"
 import Skills from "./components/Skills"
+import AboutMe from "./components/AboutMe.js"
 import Footer from './components/Footer.js'
 import Wrapper from './components/Wrapper'
 
 //values for .map functions in skill and portfolio sections respectively
 import skillsArray from "./skillsArray.js"
-import porfolioArray from './porfolioArray'
+import portfolioArray from './portfolioArray'
 
 class App extends Component {
     render() {
@@ -35,7 +36,7 @@ class App extends Component {
                         containerClass={"container-fluid"}
                         rowClass={"row pt-2 pb-5"}
                         children={
-                            porfolioArray.map((project, index)=><Portfolio
+                            portfolioArray.map((project, index)=><Portfolio
                             key={index}
                             url={project.url}
                             title={project.title}
@@ -44,6 +45,7 @@ class App extends Component {
                             commentBox={project.commentbox}
                         />)}
                     />
+                    <AboutMe/>
                     <Footer/>
                 </div>
             </MuiThemeProvider>

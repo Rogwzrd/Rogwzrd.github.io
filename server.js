@@ -5,6 +5,9 @@ const path = require("path");
 
 const PORT = process.env.PORT || 3001;
 
+const dotenv = require('dotenv');
+dotenv.load();
+
 // instantiate express
 const app = express();
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/portfolioMessages";
