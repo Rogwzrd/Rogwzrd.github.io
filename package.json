@@ -1,21 +1,25 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "homepage": "https://rogwzrd.github.io/",
-  "private": true,
-  "dependencies": {
-    "gh-pages": "^1.1.0",
-    "material-ui": "^0.20.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
-  },
+  "name": "Rogwzrd.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "repository": "git@github.com:Rogwzrd/Rogwzrd.github.io",
+  "author": "Michael Daye <mgdaye@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "client-install": "cd client && yarn install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "cd client/ && yarn start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-run": "yarn install && cd client && yarn install && cd .. && yarn dev"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.7",
+    "nodemon": "^1.15.1",
+    "twitter": "^1.7.1"
   }
 }
