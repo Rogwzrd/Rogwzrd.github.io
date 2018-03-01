@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
-import twitterApi from "../utils/TwitterApi";
 
 const aboutStyle = {
     backgroundColor: "grey",
 };
 
-export default class AboutMe extends Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            tweets: []
-        }
-    }
+class AboutMe extends Component{
+    state = {
+        tweets: []
+    };
     componentDidMount(){
-    this.getTweets();
+        this.getTweets();
     }
 
     getTweets = () => {
-        twitterApi.getMyTweets()
-            .then(res => this.setState({tweets: res.statuses}))
-            .catch(err=> console.log(err))
-};
+        fetch("api/", {method: "GET"})
+            .then(res => res.json())
+            .then(data=>{
+                console.log(data);
+                this.setState({tweets: data.statuses})
+            })
+            .catch(err=> console.log(err));
+        console.log(this.state.tweets)
+    };
     render(){
         return(
             <div style={aboutStyle}>
@@ -30,3 +31,5 @@ export default class AboutMe extends Component{
         )
     }
 }
+
+export default AboutMe;

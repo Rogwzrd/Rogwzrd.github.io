@@ -1,7 +1,8 @@
-export default keys = {
+const keys =  {
     consumer_key: 'XNfk8Uzwrf3P5dYudXDQvxuUl',
     consumer_secret: 'IZGnEr0tf46Cetft8dyEXt2RZTuvG10ybSzC0O7zZKxZVyPcA4',
     access_token_key: '918221287650185216-OIToTh4psrHgJPdCjvR4IciXJPRcnQr',
     access_token_secret: 'VrQLHIw67YOus7CTDHfe1R0v0MRnh78xTxSI2e1S4tT69'
+};
 
-}
+export default keys;

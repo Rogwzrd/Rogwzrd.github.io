@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://rogwzrd.github.io/",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "material-ui": "^0.20.0",

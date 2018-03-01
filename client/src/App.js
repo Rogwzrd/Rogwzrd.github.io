@@ -4,6 +4,7 @@ import Bio from './components/Bio'
 import Portfolio from "./components/Portfolio"
 import Skills from "./components/Skills"
 import AboutMe from "./components/AboutMe.js"
+import Contact from "./components/Contact.js"
 import Footer from './components/Footer.js'
 import Wrapper from './components/Wrapper'
 
@@ -46,6 +47,7 @@ class App extends Component {
                         />)}
                     />
                     <AboutMe/>
+                    <Contact/>
                     <Footer/>
                 </div>
             </MuiThemeProvider>
