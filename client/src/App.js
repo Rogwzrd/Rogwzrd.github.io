@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe.js"
 import Contact from "./components/Contact.js"
 import Footer from './components/Footer.js'
 import Wrapper from './components/Wrapper'
+import './components/AnimationCSS/Animations.css'
 
 //values for .map functions in skill and portfolio sections respectively
 import skillsArray from "./skillsArray.js"

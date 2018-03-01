@@ -7,8 +7,11 @@ const paperStyle={
     width: "250px",
     margin: "20px",
     padding: "10px",
+    transition: "background-color ease 200ms",
+    WebkitTransition: "background-color ease 200ms",
     backgroundColor: "#ccc"
 };
+
 const skillColumn = {
     display: "flex",
     flexDirection: "column",
@@ -23,7 +26,7 @@ const Skills = props => (
                     <img style={{maxWidth: "128px", height: "auto"}} className={"img-responsive"} src={require(`./img/${props.image}`)} alt={props.name}/>
                 </div>
                 <div className={"col-6 d-flex justify-content-center align-items-center text-center"}>
-                    <Paper zDepth={3} style={paperStyle}>
+                    <Paper zDepth={3} style={paperStyle} className={"newColor"}>
                         <div style={skillColumn}>
                             <h2>{props.name}</h2>
                             <Divider/>
