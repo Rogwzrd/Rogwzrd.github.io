@@ -19,7 +19,7 @@ const porfolioArray =[
           application from the frontend to the back end. I designed the front end from scratch as well.`
     },
     {
-        url: "https://rogwzrd.github.io/clicky-game/",
+        url: "https://super-click-fighter.herokuapp.com/",
         title: "Super Click Fighter",
         subtitle: "React, Bootstrap",
         imgSrc: "clickfighter.png",
