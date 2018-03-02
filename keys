@@ -5,4 +5,4 @@ const keys =  {
     access_token_secret: 'VrQLHIw67YOus7CTDHfe1R0v0MRnh78xTxSI2e1S4tT69'
 };
 
-export default keys;
+module.exports = keys;
